@@ -1,0 +1,70 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	/*如果屏幕会抖,可以通过把多余的部分隐藏掉解决*/
+	overflow: hidden;
+}
+#cat{
+	width: 100%;
+	height: 100%;
+}
+img,div{
+	position: absolute;
+	
+}
+#cymbal,#drink,#eat{
+	left: 5%;
+	
+}
+#fart,#pie,#scratch{
+	right: 5%;
+}
+#cymbal,#fart{
+	bottom: 40%;
+}
+#drink,#pie{
+	bottom: 30%;
+}
+#eat,#scratch{
+	bottom: 20%;
+}
+#stomach{
+	width: 20%;
+	height: 15%;
+
+	bottom: 15%;
+	left: 40%;
+}
+#knockout{
+	width: 15%;
+	height: 10%;
+
+	top: 15%;
+	left: 45%;
+}
+#angry{
+	width: 15%;
+	height: 10%;
+	top: 30%;
+	left: 45%;
+	/*background: red;*/
+}
+#footLeft{
+	width: 15%;
+	height: 10%;
+	bottom: 3%;
+	left: 30%;
+	/*background: red;*/
+}
+#footRight{
+	width: 15%;
+	height: 10%;
+	bottom: 3%;
+	right: 30%;
+	
+}
